@@ -11,14 +11,14 @@ let audios = [
 ]
 
 let botoes = document.querySelectorAll('.botao')
-let legendas = document.querySelectorAll('.ratin')
+let audioTAG = document.querySelector('audio')
 
+
+//Ratinho
 for(let i=0; i < 9; i++){
     legendas[i].textContent = audios[i].legenda
     botoes[i].setAttribute('idBTN', i)
 }
-
-let audioTAG = document.querySelector('audio')
 
 botoes.forEach(botao =>{
     botao.addEventListener('click', () =>{
