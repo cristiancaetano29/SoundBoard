@@ -12,6 +12,7 @@ let audios = [
 
 let botoes = document.querySelectorAll('.botao')
 let audioTAG = document.querySelector('audio')
+let legendas = document.querySelectorAll('.ratin')
 
 
 //Ratinho
