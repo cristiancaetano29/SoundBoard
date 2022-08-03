@@ -1,7 +1,9 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #dbb1bd;
+    background-image: url(./images/fundo.gif);
+    background-size: cover;
+    z-index: -100;
 }
 
 .foto-container{
